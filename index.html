@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polar Eclipse</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1220;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 50px;
+      background: rgba(0,0,0,0.5);
+      position: fixed;
+      width: 100%;
+    }
+
+    header h1 {
+      color: #4da6ff;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .hero {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1608889175119-6b5b94d55bd4') center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 50px;
+    }
+
+    .hero h2 {
+      font-size: 60px;
+    }
+
+    .buttons button {
+      padding: 15px 25px;
+      margin-right: 10px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .play {
+      background: #4da6ff;
+      color: white;
+    }
+
+    .discord {
+      background: transparent;
+      border: 1px solid white;
+      color: white;
+    }
+
+    section {
+      padding: 80px 50px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #111a2b;
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #050a14;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Polar Eclipse</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#features">Features</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Survive the Cold</h2>
+  <p>Explore the unknown. Adapt. Overcome.</p>
+  <div class="buttons">
+    <button class="play">Play on Roblox</button>
+    <button class="discord">Join Community</button>
+  </div>
+</div>
+
+<section id="features">
+  <h2>Game Features</h2>
+  <div class="features">
+    <div class="card">
+      <h3>Brave the Cold</h3>
+      <p>Face extreme weather and freezing temperatures.</p>
+    </div>
+    <div class="card">
+      <h3>Explore</h3>
+      <p>Discover hidden secrets across icy lands.</p>
+    </div>
+    <div class="card">
+      <h3>Team Up</h3>
+      <p>Survive with friends and work together.</p>
+    </div>
+    <div class="card">
+      <h3>Craft</h3>
+      <p>Gather resources and build your base.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <p>Polar Eclipse is a survival Roblox game set in a frozen world where players must survive harsh conditions and explore mysteries.</p>
+</section>
+
+<footer>
+  <p>© 2026 Polar Eclipse</p>
+</footer>
+
+</body>
+</html>
